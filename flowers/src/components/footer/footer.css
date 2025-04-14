@@ -1,0 +1,25 @@
+.footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 60px 150px;
+    height: 300px;
+    margin-top: 50px;
+}
+.info{
+    width: 1200px;
+    display: flex;
+    gap: 100px;
+    font-size: 18px;
+}
+.info1, .info2, .info3{
+    line-height: 50px;
+}
+.info4{
+    width: 270px;
+    line-height: 50px;
+}
+.apps{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
