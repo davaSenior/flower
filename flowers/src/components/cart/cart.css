@@ -3,7 +3,8 @@
 }
 .card-product{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-around; */
+    gap: 250px;
     align-items: center;
     margin-top: 20px;
 }
@@ -11,13 +12,13 @@
     width: 400px;
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 60px;
     font-size: 20px;
     font-weight: 900;
 }
 .cardImg{
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
 }
 .card-product p{
     font-size: 20px;
@@ -31,4 +32,17 @@
     background-color: #e1dede;
     border: none;
     outline: none;
+}
+.card-btn{
+    width: 90px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: teal;
+    border-radius: 5px;
+}
+.card-btn:hover{
+    transition: 0.8s ;
+    background-color: rgb(239, 106, 106);
 }

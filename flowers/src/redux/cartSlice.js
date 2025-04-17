@@ -2,7 +2,9 @@ import { createSlice } from '@reduxjs/toolkit'
 
 const cartSlice = createSlice({
     name: 'cart',
-    initialState: { cartItem: [] },
+    initialState: {
+        cartItem: [] 
+    },
     reducers: {
         addCart: ( el, act ) => {
             const findProduct = el.cartItem.find( (el) => el.id == act.payload.id )

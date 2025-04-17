@@ -16,8 +16,7 @@ function Product( { data } ) {
                 <h6> { data.title } </h6>
             </div>
             <div className="pro-text">
-                <p> $120 </p>
-                <h4> {data.price}  </h4>
+                <h4> $ {data.price}  </h4>
             </div>
         </div>
     </div>

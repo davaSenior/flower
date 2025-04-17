@@ -26,7 +26,7 @@ function Home() {
     <div className='container'>
       <div className="flower">
         {
-          product.slice( 0, 8 ).map( (item) => (
+          product.slice( 0, 6 ).map( (item) => (
             <Product key={item.id} data={item} />
        ) ) 
         }

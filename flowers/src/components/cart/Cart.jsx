@@ -16,7 +16,7 @@ function Cart() {
           </div>
           <p> ${item.price} </p>
           <input type="number" placeholder='0'/>
-          <p> ${item.viewsCount} </p>
+          <button className='card-btn'> clear </button>
         </div>
           ) )
         }
